@@ -14,7 +14,7 @@
 ```js
  console.log (analyzer.getTransactionsInRange("2019-01-01", "2019-01-09"));
 ```
-Выведет:
+Выведет все транзакции в этом диапазоне:
 ```js
 [
   {
@@ -99,6 +99,21 @@
     card_type: 'Discover'
   }
 ]
+```
+```js
+console.log(analyzer.findMostTransactionsMonth());
+```
+Выведет месяц с самым большим количеством транзакций:
+```js
+Январь
+```
+```js
+console.log(analyzer.mostTransactionTypes());
+```
+
+Выведет самый популярный тип транзакций:
+```js
+debit
 ```
 
 #### 5. Ответы на контрольные вопросы
