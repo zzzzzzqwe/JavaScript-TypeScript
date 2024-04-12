@@ -100,6 +100,7 @@
   }
 ]
 ```
+или например:
 ```js
 console.log(analyzer.findMostTransactionsMonth());
 ```
@@ -107,6 +108,7 @@ console.log(analyzer.findMostTransactionsMonth());
 ```js
 Январь
 ```
+или:
 ```js
 console.log(analyzer.mostTransactionTypes());
 ```
@@ -115,6 +117,7 @@ console.log(analyzer.mostTransactionTypes());
 ```js
 debit
 ```
+и так далее.
 
 #### 5. Ответы на контрольные вопросы
 
