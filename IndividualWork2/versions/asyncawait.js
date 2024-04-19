@@ -1,3 +1,11 @@
+/**
+ * Получает случайную активность с внешнего API и отображает её на странице.
+ * Если произошла ошибка при получении данных, выводит сообщение об ошибке.
+ * Обновляет данные каждую минуту.
+ * @async
+ * @returns {Promise<void>} Промис без возвращаемого значения
+ */
+
 async function getRandomActivity() {
     try {
         const response = await fetch('https://www.boredapi.com/api/activity/');

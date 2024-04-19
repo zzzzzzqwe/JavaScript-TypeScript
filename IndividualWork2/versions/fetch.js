@@ -1,3 +1,6 @@
+/**
+ * Получает случайную активность с внешнего API и отображает её на странице.
+ */
 function getRandomActivity() {
     fetch('https://www.boredapi.com/api/activity/')
      .then(response => response.json())
