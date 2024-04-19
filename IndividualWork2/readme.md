@@ -17,7 +17,7 @@ async function updateData() {
 }
 ```
 Веб-страница выглядит следующим образом:
-
+![Пример](https://github.com/zzzzzzqwe/JavaScript-TypeScript/blob/deb6f8fad1bb08672772461fcf889b1cb91794ac/IndividualWork2/screenshots/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA1.png)
 
 
 ### 5. Ответы на контрольные вопросы:
