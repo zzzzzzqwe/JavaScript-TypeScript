@@ -17,8 +17,21 @@ async function updateData() {
 }
 ```
 Веб-страница выглядит следующим образом:
+
 ![Пример](https://github.com/zzzzzzqwe/JavaScript-TypeScript/blob/deb6f8fad1bb08672772461fcf889b1cb91794ac/IndividualWork2/screenshots/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA1.png)
 
+Основной функционал мини-приложения достигается благодаря файлу activity.js. В нем используется ассинхронная функция, которая отправляет запрос на сервер API и получает ответ в формате JSON. Она извлекает данные из ответа и вовзращает текст активности:
+
+```js
+function updateActivity(activity) {
+    const activityElement = document.getElementById('activity');
+    if (activity !== null) {
+        activityElement.textContent = activity;
+    } else {
+        activityElement.textContent = "К сожалению, произошла ошибка";
+    }
+}
+```
 
 ### 5. Ответы на контрольные вопросы:
 ### Какое значение возвращает функция fetch?
