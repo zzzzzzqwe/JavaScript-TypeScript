@@ -34,7 +34,7 @@ element.innerHTML = "Новый HTML контент";
 
 4. Как можно добавить новый элемент в DOM дерево с помощью JavaScript?
 
-Для создания нового элемента в DOM используется метод document.createElement(tagName), где tagName это тип создаваемого элемента (например, "div", "p", "span", и т.д.). Затем содержимое устанавливается с помощью textContent или innerHTML, получается родительский элемент и затем элемент уже можно добавить в DOM.
+Для создания нового элемента в DOM используется метод document.createElement(tagName), где tagName это тип создаваемого элемента (например, "div", "p", "span", и т.д.). Затем содержимое устанавливается с помощью textContent или innerHTML, и после элемент уже можно добавить в DOM.
 Вот простой пример:
 ```js
 let container = document.getElementById("container");
